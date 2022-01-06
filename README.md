@@ -8,6 +8,9 @@ Example image used
 
 ![alt text](https://st2.depositphotos.com/6306540/9999/v/950/depositphotos_99992684-stock-illustration-monochrome-elegant-pattern-black-and.jpg)
 	
+	import img2midi
+	i2m = img2midi.ImgToMidi()
+	
 	# Load an image and convert to midi.
 	i2m.open_image(image_path='PATH_TO_IMAGE')
 	i2m.make_midi()
@@ -15,6 +18,6 @@ Example image used
 
 ![Image 1](./pics/imd2midi1.PNG)
 
-To save midi as midi.
+To save as midi file.
 
 	i2m.save_midi() # Default midi name `img2midi` if no filename provided
