@@ -1,0 +1,203 @@
+{
+    "Major scale": {
+        "Note Set": "['1', '2', '3', '4', '5', '6', '7']"
+    },
+    "Dorian mode": {
+        "Note Set": "['1', '2', 'b3', '4', '5', '6', 'b7']"
+    },
+    "Phrygian mode": {
+        "Note Set": "['1', 'b2', 'b3', '4', '5', 'b6', 'b7']"
+    },
+    "Lydian mode": {
+        "Note Set": "['1', '2', '3', '#4', '5', '6', '7']"
+    },
+    "Mixolydian mode": {
+        "Note Set": "['1', '2', '3', '4', '5', '6', 'b7']"
+    },
+    "Natural Minor scale": {
+        "Note Set": "['1', '2', 'b3', '4', '5', 'b6', 'b7']"
+    },
+    "Locrian mode": {
+        "Note Set": "['1', 'b2', 'b3', '4', 'b5', 'b6', 'b7']"
+    },
+    "Harmonic Major scale": {
+        "Note Set": "['1', '2', '3', '4', '5', 'b6', '7']"
+    },
+    "Dorian b5 scale": {
+        "Note Set": "['1', '2', 'b3', '4', 'b5', '6', 'b7']"
+    },
+    "Phrygian b4 scale": {
+        "Note Set": "['1', 'b2', 'b3', 'b4', '5', 'b6', 'b7']"
+    },
+    "Lydian b3 scale": {
+        "Note Set": "['1', '2', 'b3', '#4', '5', '6', '7']"
+    },
+    "Mixolydian b2 scale": {
+        "Note Set": "['1', 'b2', '3', '4', '5', '6', 'b7']"
+    },
+    "Lydian Augmented #2 scale": {
+        "Note Set": "['1', '#2', '3', '#4', '#5', '6', '7']"
+    },
+    "Locrian Diminished scale": {
+        "Note Set": "['1', 'b2', 'b3', '4', 'b5', 'b6', 'bb7']"
+    },
+    "Harmonic Minor scale": {
+        "Note Set": "['1', '2', 'b3', '4', '5', 'b6', '7']"
+    },
+    "Locrian nat. 6 scale": {
+        "Note Set": "['1', 'b2', 'b3', '4', 'b5', '6', 'b7']"
+    },
+    "Ionian Augmented scale": {
+        "Note Set": "['1', '2', '3', '4', '#5', '6', '7']"
+    },
+    "Ukrainian Dorian scale": {
+        "Note Set": "['1', '2', 'b3', '#4', '5', '6', 'b7']"
+    },
+    "Phrygian Dominant scale": {
+        "Note Set": "['1', 'b2', '3', '4', '5', 'b6', 'b7']"
+    },
+    "Lydian #2 scale": {
+        "Note Set": "['1', '#2', '3', '#4', '5', '6', '7']"
+    },
+    "Super-Locrian Diminished scale": {
+        "Note Set": "['1', 'b2', 'b3', 'b4', 'b5', 'b6', 'bb7']"
+    },
+    "Melodic Minor scale (asc)": {
+        "Note Set": "['1', '2', 'b3', '4', '5', '6', '7']"
+    },
+    "Dorian b2 scale": {
+        "Note Set": "['1', 'b2', 'b3', '4', '5', '6', 'b7']"
+    },
+    "Lydian Augmented scale": {
+        "Note Set": "['1', '2', '3', '#4', '#5', '6', '7']"
+    },
+    "Acoustic scale": {
+        "Note Set": "['1', '2', '3', '#4', '5', '6', 'b7']"
+    },
+    "Mixolydian b6 scale": {
+        "Note Set": "['1', '2', '3', '4', '5', 'b6', 'b7']"
+    },
+    "Half Diminished scale": {
+        "Note Set": "['1', '2', 'b3', '4', 'b5', 'b6', 'b7']"
+    },
+    "Altered scale": {
+        "Note Set": "['1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7']"
+    },
+    "Neapolitan Major scale": {
+        "Note Set": "['1', 'b2', 'b3', '4', '5', '6', '7']"
+    },
+    "Lydian Augmented #6 scale": {
+        "Note Set": "['1', '2', '3', '#4', '#5', '#6', '7']"
+    },
+    "Lydian Augmented Dominant scale": {
+        "Note Set": "['1', '2', '3', '#4', '#5', '6', 'b7']"
+    },
+    "Lydian b6 Dominant scale": {
+        "Note Set": "['1', '2', '3', '#4', '5', 'b6', 'b7']"
+    },
+    "Major Locrian scale": {
+        "Note Set": "['1', '2', '3', '4', 'b5', 'b6', 'b7']"
+    },
+    "Super-Locrian nat. 2 scale": {
+        "Note Set": "['1', '2', 'b3', 'b4', 'b5', 'b6', 'b7']"
+    },
+    "Super-Locrian bb3 scale": {
+        "Note Set": "['1', 'b2', 'bb3', 'b4', 'b5', 'b6', 'b7']"
+    },
+    "Neapolitan Minor scale": {
+        "Note Set": "['1', 'b2', 'b3', '4', '5', 'b6', '7']"
+    },
+    "Lydian #6 scale": {
+        "Note Set": "['1', '2', '3', '#4', '5', '#6', '7']"
+    },
+    "Mixolydian Augmented scale": {
+        "Note Set": "['1', '2', '3', '4', '#5', '6', 'b7']"
+    },
+    "Hungarian Gypsy scale": {
+        "Note Set": "['1', '2', 'b3', '#4', '5', 'b6', 'b7']"
+    },
+    "Locrian nat. 3 scale": {
+        "Note Set": "['1', 'b2', '3', '4', 'b5', 'b6', 'b7']"
+    },
+    "Ionian #2 scale": {
+        "Note Set": "['1', '#2', '3', '4', '5', '6', '7']"
+    },
+    "Super-Locrian Diminished bb3 scale": {
+        "Note Set": "['1', 'b2', 'bb3', 'b4', 'b5', 'b6', 'bb7']"
+    },
+    "Double Harmonic Major scale": {
+        "Note Set": "['1', 'b2', '3', '4', '5', 'b6', '7']"
+    },
+    "Lydian #2 #6 scale": {
+        "Note Set": "['1', '#2', '3', '#4', '5', '#6', '7']"
+    },
+    "Ultraphrygian scale": {
+        "Note Set": "['1', 'b2', 'b3', 'b4', '5', 'b6', 'bb7']"
+    },
+    "Hungarian Minor scale": {
+        "Note Set": "['1', '2', 'b3', '#4', '5', 'b6', '7']"
+    },
+    "Oriental scale": {
+        "Note Set": "['1', 'b2', '3', '4', 'b5', '6', 'b7']"
+    },
+    "Ionian Augmented #2 scale": {
+        "Note Set": "['1', '#2', '3', '4', '#5', '6', '7']"
+    },
+    "Locrian Diminished bb3 scale": {
+        "Note Set": "['1', 'b2', 'bb3', '4', 'b5', 'b6', 'bb7']"
+    },
+    "Persian scale": {
+        "Note Set": "['1', 'b2', '3', '4', 'b5', 'b6', '7']"
+    },
+    "Persian mode 2": {
+        "Note Set": "['1', '#2', '3', '4', '5', '#6', '7']"
+    },
+    "Persian mode 3": {
+        "Note Set": "['1', 'b2', 'bb3', 'b4', '5', 'b6', 'bb7']"
+    },
+    "Persian mode 4": {
+        "Note Set": "['1', 'b2', 'b3', '#4', '5', 'b6', '7']"
+    },
+    "Persian mode 5": {
+        "Note Set": "['1', '2', '#3', '#4', '5', '#6', '7']"
+    },
+    "Persian mode 6": {
+        "Note Set": "['1', '#2', '3', '4', '#5', '6', 'b7']"
+    },
+    "Persian mode 7": {
+        "Note Set": "['1', 'b2', 'bb3', '4', 'b5', 'bb6', 'bb7']"
+    },
+    "Major Pentatonic scale": {
+        "Note Set": "['1', '2', '3', '5', '6']"
+    },
+    "Egyptian Pentatonic scale": {
+        "Note Set": "['1', '2', '4', '5', 'b7']"
+    },
+    "Man Gong Pentatonic scale": {
+        "Note Set": "['1', 'b3', '4', 'b6', 'b7']"
+    },
+    "Ritsusen Pentatonic scale": {
+        "Note Set": "['1', '2', '4', '5', '6']"
+    },
+    "Minor Pentatonic scale": {
+        "Note Set": "['1', 'b3', '4', '5', 'b7']"
+    },
+    "Major Blues Hexatonic Scale": {
+        "Note Set": "['1', '2', 'b3', '3', '5', '6']"
+    },
+    "Major Blues Hexatonic mode 2": {
+        "Note Set": "['1', 'b2', '2', '4', '5', 'b7']"
+    },
+    "Major Blues Hexatonic mode 3": {
+        "Note Set": "['1', 'b2', '3', '#4', '6', '7']"
+    },
+    "Major Blues Hexatonic mode 4": {
+        "Note Set": "['1', '#2', '#3', '#5', 'b7', '7']"
+    },
+    "Major Blues Hexatonic mode 5": {
+        "Note Set": "['1', '2', '4', '5', 'b6', '6']"
+    },
+    "Minor Blues Hexatonic Scale": {
+        "Note Set": "['1', 'b3', '4', 'b5', '5', 'b7']"
+    }
+}
