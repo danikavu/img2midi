@@ -13,4 +13,8 @@ Example image used
 	i2m.make_midi()
 	i2m.plot()
 
-![Image 1](./pics/img2midi1.PNG)
+![Image 1](./pics/imd2midi1.PNG)
+
+To save midi as midi.
+
+	i2m.save_midi() # Default midi name `img2midi` if no filename provided
