@@ -47,7 +47,7 @@ We can set the default image size to be ignored and only work with a specific pa
 
 The midi notes now resemble a higher quality part of the original image. However this still does not sound pleasant. We should also take in account that almost no music contains a full range of notes from 0 to 127 per track
 
-To change this we can set the starting note, and the range of notes we want to use.
+To change this we can set the starting note, and the range of notes we want to use. Lets go for our starting note at 36 and a note range of 24. The range will apply from the starting note and above.
 
 	# Set starting note and range.
 	i2m.default_size = False
@@ -73,7 +73,7 @@ For example if we set the steps to 2, every midi note will have a space of 2 bet
 This midi set could probably sound ok. But in reality music does not have an upper or lower limit, and neither is stable without fluctuations.
 So we can try and add some of that also.
 
-First we will need to quantize the midi notes using the `stretch()` function. The we can use the `midi_modifier()` function to add fluctuation and the amount we want to shift notes up or down.
+First we should shift the notes to start at zero using the `midi_modifier()` function. We can then quantize the midi notes using the `stretch()` function to fit in bar view. Finally we will apply via the `midi_modifier()` function to add fluctuation and the amount we want to shift notes up or down.
 We can also set every step we want the midi shift to apply. The amount of shift per step is selected at random.
 	
 	# Usually we should shif all the notes until the first note starts at zero.
