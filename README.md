@@ -76,10 +76,12 @@ So we can try and add some of that also.
 First we will need to quantize the midi notes using the `stretch()` function. The we can use the `midi_modifier()` function to add fluctuation and the amount we want to shift notes up or down.
 We can also set every step we want the midi shift to apply. The amount of shift per step is selected at random.
 	
-	# Stretch or quantize midi. Default value is 16
+	# Usually we should shif all the notes until the first note starts at zero.
+	i2m.midi_modifier(start_zero=True)
+	# Stretch or quantize midi. Default value is 16.
 	i2m.stretch() # If you want to change the value the bars argument is used. ex bars=8
-	i2m.midi_modifier(s_stretch=[-2,2], # Add the shift range in the s_stretch argument. 
-	                  start_zero=True,  # Shift all notes until first note starts at zero.
+	# Apply shifting of notes and the amount of times.
+	i2m.midi_modifier(s_stretch=[-2,2], # Add the shift range in the s_stretch argument.
 					  scale_change=8)   # Apply shift changes 8 times. For 16 it will shift every 2 bars. 16/8
 	i2m.plot()
 	
