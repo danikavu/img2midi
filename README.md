@@ -32,7 +32,7 @@ For the experimental part the below image will be used.
 
 ![alt text](https://previews.123rf.com/images/snezh/snezh1506/snezh150600608/41542855-vector-mandala-round-ornament-in-ethnic-style-hand-draw.jpg)
 
-Using the same code above we get the resul below. As you can see due to the midi range limitation of 127 notes the image/midi notes become greatly compressed
+Using the same code above we get the result below. As you can see due to the high quality of detail in the image in addition with the midi range limitation of 127 notes, the image/midi notes become greatly compressed.
 
 ![Image 2](./pics/img2midi2.PNG)
 
@@ -70,3 +70,17 @@ For example if we set the steps to 2, every midi note will have a space of 2 bet
 	
 ![Image 4](./pics/img2midi2_x3.PNG)
 
+This midi set could probably sound ok. But in reality music does not have an upper or lower limit, and neither is stable without fluctuations.
+So we can try and add some of that also.
+
+First we will need to quantize the midi notes using the `stretch()` function. The we can use the `midi_modifier()` function to add fluctuation and the amount we want to shift notes up or down.
+We can also set every step we want the midi shift to apply. The amount of shift per step is selected at random.
+	
+	# Stretch or quantize midi. Default value is 16
+	i2m.stretch() # If you want to change the value the bars argument is used. ex bars=8
+	i2m.midi_modifier(s_stretch=[-2,2], # Add the shift range in the s_stretch argument. 
+	                  start_zero=True,  # Shift all notes until first note starts at zero.
+					  scale_change=8)   # Apply shift changes 8 times. For 16 it will shift every 2 bars. 16/8
+	i2m.plot()
+	
+![Image 4](./pics/img2midi2_x4.PNG)
