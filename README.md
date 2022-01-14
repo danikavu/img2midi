@@ -34,7 +34,7 @@ For the experimental part the below image will be used.
 
 Using the same code above we get the resul below. As you can see due to the midi range limitation of 127 notes the image/midi notes become greatly compressed
 
-![Image 2](./pics/imd2midi2.PNG)
+![Image 2](./pics/img2midi2.PNG)
 
 We can set the default image size to be ignored and only work with a specific part of the Image. (This currently selects at random choice)
 
