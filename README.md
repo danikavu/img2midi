@@ -1,6 +1,11 @@
 ## img2midi
 
 Convert images to midi.
+This library converts the input images to black & white, and transforms the black section to midi. Works best with illustrations.
+
+## Installation
+
+	pip install git+https://github.com/danikavu/img2midi.git
 
 ## Usage
 
