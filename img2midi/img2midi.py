@@ -384,7 +384,7 @@ class ImgToMidi:
         self.midi_data = modified_midi
         
         if scale:
-            img2midi.add_scale(scale, root_note)         
+            self.add_scale(scale, root_note)         
 
             
             
