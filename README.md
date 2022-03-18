@@ -31,7 +31,7 @@ To save as midi file.
 ## Experimental 
 
 We will try to generate something that can sound pleasant in midi form, extracted from an Image.
-Given the midi generated the musical expierience unfortunately is unpleasant due to the full range of notes stacked on each other.
+Given the midi generated the musical experience unfortunately is unpleasant due to the full range of notes stacked on each other.
 
 For the experimental part the below image will be used.
 
@@ -81,7 +81,7 @@ So we can try and add some of that also.
 First we should shift the notes to start at zero using the `midi_modifier()` function. We can then quantize the midi notes using the `stretch()` function to fit in bar view. Finally we will apply via the `midi_modifier()` function to add fluctuation and the amount we want to shift notes up or down.
 We can also set every step we want the midi shift to apply. The amount of shift per step is selected at random.
 	
-	# Usually we should shif all the notes until the first note starts at zero.
+	# Usually we should shift all the notes until the first note starts at zero.
 	i2m.midi_modifier(start_zero=True)
 	# Stretch or quantize midi. Default value is 16.
 	i2m.stretch() # If you want to change the value the bars argument is used. ex bars=8
