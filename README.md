@@ -31,7 +31,6 @@ To save as midi file.
 ## Experimental 
 
 We will try to generate something that can sound pleasant in midi form, extracted from an Image.
-Given the midi generated the musical expierience unfortunately is unpleasant due to the full range of notes stacked on each other.
 
 For the experimental part the below image will be used.
 
@@ -50,9 +49,7 @@ We can set the default image size to be ignored and only work with a specific pa
 	
 ![Image 2](./pics/img2midi2_x1.PNG)
 
-The midi notes now resemble a higher quality part of the original image. However this still does not sound pleasant. We should also take in account that almost no music contains a full range of notes from 0 to 127 per track
-
-To change this we can set the starting note, and the range of notes we want to use. Lets go for our starting note at 36 and a note range of 24. The range will apply from the starting note and above.
+Set a starting note on 36 and a note range of 24. The range will apply from the starting note and above.
 
 	# Set starting note and range.
 	i2m.default_size = False
@@ -63,7 +60,7 @@ To change this we can set the starting note, and the range of notes we want to u
 	
 ![Image 3](./pics/img2midi2_x2.PNG)
 
-Now that we have our starting note and range we have to tackle our anti-harmony problem. Notes stacked on each other just sound like horror film soundtracks. We can apply a step skip the will ignore a given set of notes.
+We can apply a step skip the will ignore a given set of notes.
 For example if we set the steps to 2, every midi note will have a space of 2 between them and so on.
 	
 	# Apply skip between notes.
@@ -75,10 +72,7 @@ For example if we set the steps to 2, every midi note will have a space of 2 bet
 	
 ![Image 4](./pics/img2midi2_x3.PNG)
 
-This midi set could probably sound ok. But in reality music does not have an upper or lower limit, and neither is stable without fluctuations.
-So we can try and add some of that also.
-
-First we should shift the notes to start at zero using the `midi_modifier()` function. We can then quantize the midi notes using the `stretch()` function to fit in bar view. Finally we will apply via the `midi_modifier()` function to add fluctuation and the amount we want to shift notes up or down.
+We can shift the notes to start at zero using the `midi_modifier()` function. We can then quantize the midi notes using the `stretch()` function to fit in bar view. Finally we will apply via the `midi_modifier()` function to add fluctuation and the amount we want to shift notes up or down.
 We can also set every step we want the midi shift to apply. The amount of shift per step is selected at random.
 	
 	# Usually we should shif all the notes until the first note starts at zero.
